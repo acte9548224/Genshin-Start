@@ -30,7 +30,7 @@ export function Menu() {
         <div className="menu-description">
           <div className="description">
           <p>使用说明：点击右下角的门进行———原神，启动！ .</p>
-           <p>免责声明：本项目仅为WebGL技术展示，详情按箭头图标，或查看源代码。</p>
+           <p>免责声明：本项目仅为WebGL技术展示，感谢Titlecan贡献的代码。</p>
           </div>
         </div>
         <button className="ClickMe" onClick={login ? () => {
@@ -42,7 +42,7 @@ export function Menu() {
           bottom: "16%",
           backgroundImage: `url("/Genshin/jump.png")`
         }} onClick={login ? () => {
-          window.open('https://github.com/Titlecan/Genshin-Start');
+          window.open('https://apps.apple.com/us/app/genshin-impact-lantern-rite/id1517783697');
         } : () => { }}></button>
       </div>
       {doorCreate && (
